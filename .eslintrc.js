@@ -17,6 +17,14 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["prettier", "@typescript-eslint", "import", "unicorn"],
+  "import/parsers": {
+    "@typescript-eslint/parser": [".ts", ".tsx"],
+  },
+  "import/resolver": {
+    node: {
+      extensions: [".js", ".jsx", ".ts", ".tsx"],
+    },
+  },
   overrides: [
     {
       files: ["*.ts", "*.tsx"],
