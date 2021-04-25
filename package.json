@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:nathanhinish/project-boilerplate-base.git",
-  "author": "Nathan Hinish <nathan@triadinteractive.com>",
+  "author": "Nathan Hinish <nathan.hinish@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
